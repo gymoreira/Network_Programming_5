@@ -1,0 +1,18 @@
+1:PS C:\Users\yago\Documents\NetBeansProjects\hsqldb-2.3.4\hsqldb>
+
+java -cp lib/hsqldb.jar org.hsqldb.Server
+
+2:PS C:\Users\yago\Documents\NetBeansProjects\hsqldb-2.3.4\hsqldb>
+
+java -cp lib/hsqldb.jar org.hsqldb.util.DatabaseManager
+
+creat your datbase Server:
+
+Setting Name: name of your database
+Type: HSQL Database Engine Server
+Drive: org.hsqldb.jdbcDriver
+URL: jdbc:hsqldb:hsql://localhost/
+User SA
+Password:
+
+3: run the project.
